@@ -13,18 +13,44 @@ h1 {
     font-family: "RobotoBlack", sans-serif;
 }
 
+h2 {
+    color: #F9FAF8;
+    font-size: 48px;
+    /* font-weight: bolder; */
+}
+/* some random information header */
+.h3{
+    color: #1F2937;
+    text-align: center;
+    font-weight: bold;
+}
+
 /* setting background colors with different elements */
-/* test div*/
-.test{
+/* header */
+.header {
     background-color: #1F2937;
     color: #F9FAF8;
 }
-/* testTwo div*/
-.testTwo{}
-/* testThree div*/
-.testThree{}
+
+/* information */
+.information {
+    background-color: #ffffff;
+}
+
+/* quote */
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.action {
+    background-color: #3882f6;
+}
+
 /* footer */
-.footer{
+.footer {
     background-color: #1F2937;
     color: #f0ffff;
     text-align: center;
