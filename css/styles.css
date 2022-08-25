@@ -5,6 +5,7 @@
 
 body {
     margin: 0%;
+    padding: 0%;
     /* background: #0000ff; */
 }
 
@@ -31,8 +32,22 @@ h2 {
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
+    /* display: flex; */
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 100px;
 }
-
+.header li{
+    padding: 0 20px;
+    list-style: none;
+    display: inline-block;
+}
+.nav {
+    /* display: flex; */
+}
+.nav a{
+    flex: 3;
+}
 /* information */
 .information {
     background-color: #ffffff;
@@ -47,6 +62,9 @@ h2 {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 
 .action {
@@ -67,6 +85,18 @@ h2 {
     padding: 5px 15px;
     border: none;
     margin-bottom: 70px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+/* buttons hover */
+.button1:hover {
+    background-color: #6495ed;
+}
+
+.button2:hover {
+    background-color: #6495ed;
 }
 
 .button2 {
@@ -74,7 +104,9 @@ h2 {
     color: #E5E7EB;
     border-radius: 5px;
     padding: 5px 15px;
-    border-color:#ffffff;
+    border-color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 /* footer */
