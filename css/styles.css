@@ -66,6 +66,18 @@ h2 {
     /* padding: 100px; */
 }
 
+/* images */
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+/* list style removal */
+.image-gallery li {
+    list-style: none;
+}
+
 /* quote */
 .quote {
     background-color: #E5E7EB;
