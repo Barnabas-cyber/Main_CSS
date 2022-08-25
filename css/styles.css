@@ -32,9 +32,6 @@ h2 {
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
-    /* display: flex; */
-    justify-content: flex-end;
-    align-items: center;
     padding: 20px 100px;
 }
 
@@ -46,12 +43,12 @@ h2 {
 
 /* logo */
 .logo a {
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .nav a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #E5E7EB;
     /* flex: 3; */
 }
 
