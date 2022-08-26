@@ -43,6 +43,7 @@ h2 {
 
 /* logo */
 .logo a {
+    color: #F9FAF8;
     font-size: 24px;
 }
 
@@ -149,6 +150,4 @@ h2 {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
-    /* padding-left: 10px;
-    padding-right: 10px; */
 }
