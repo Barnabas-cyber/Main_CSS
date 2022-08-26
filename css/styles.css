@@ -78,12 +78,14 @@ h2 {
 .image-gallery li {
     list-style: none;
 }
+
 /* grouping images  */
-.image-gallery img{
-    border: 5px solid #555;
+.image-gallery img {
+    border: 5px solid #3882f6;
     padding: 60px 50px;
     border-radius: 25px;
 }
+
 /* quote */
 .quote {
     background-color: #E5E7EB;
