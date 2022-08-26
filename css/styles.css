@@ -74,7 +74,18 @@ h2 {
     justify-content: center;
     gap: 40px;
 }
+/* image placeholder */
+.image-placeholder{
+    background-color: #eee;
+    display: flex;
+    height: 180px;
+    margin: 5px;
+    width: 100%;
+}
 
+.image-placeholder > h4{
+    align-self: center;
+}
 /* list style removal */
 .image-gallery li {
     list-style: none;
