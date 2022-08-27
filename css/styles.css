@@ -54,6 +54,7 @@ h2 {
 
 /* logo */
 .logo a {
+    font-family: "RobotoBold", sans-serif;
     color: #F9FAF8;
     font-size: 24px;
 }
