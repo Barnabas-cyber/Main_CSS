@@ -107,7 +107,7 @@ h2 {
 /* grouping images  */
 .image-gallery img {
     border: 5px solid #3882f6;
-    padding: 60px 50px;
+    /* padding: 60px 50px; */
     border-radius: 25px;
 }
 
@@ -118,7 +118,7 @@ h2 {
     font-size: 36px;
     font-style: italic;
     padding-top: 30px;
-    padding-bottom: 100px;*/
+    padding-bottom: 100px;
 }
 .quote p{
     border: 10px solid #E5E7EB;
