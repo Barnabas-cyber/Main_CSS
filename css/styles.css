@@ -20,7 +20,6 @@
 
 body {
     margin: 0%;
-    padding: 0%;
     overflow-x: hidden;
 }
 
@@ -49,9 +48,7 @@ h2 {
 .header li {
     padding: 0 20px;
     list-style: none;
-    display: inline-block;
 }
-
 /* logo */
 .logo a {
     font-family: "RobotoBold", sans-serif;
@@ -71,7 +68,6 @@ h2 {
     justify-content: space-between;
     align-items: center;
 }
-
 div {
     margin-left: 30px;
 }
