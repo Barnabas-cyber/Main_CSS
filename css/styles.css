@@ -61,11 +61,12 @@ h2 {
     align-items: center;
 }
 
-.data{
+.data {
     display: flex;
     column-gap: 10em;
     flex-direction: row-reverse;
 }
+
 /* information */
 .information {
     background-color: #ffffff;
@@ -92,9 +93,10 @@ h2 {
     /* margin-top: auto; */
 }
 
-.image-placeholder>h4 {
-    align-self:center;
+.image-placeholder {
+    /* align-self:center; */
     color: #1F2937;
+    justify-content: center;
 }
 
 /* list style removal */
@@ -115,14 +117,16 @@ h2 {
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
-    text-align: center;
     padding-top: 30px;
-    padding-bottom: 30px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+    padding-bottom: 100px;*/
 }
-
+.quote p{
+    border: 10px solid #E5E7EB;
+    width: 750px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
 .action {
     background-color: #3882f6;
     color: #E5E7EB;
