@@ -51,6 +51,7 @@ h3 {
     font-family: "RobotoBold", sans-serif;
     color: #F9FAF8;
     font-size: 24px;
+    margin-right: 50px;
 }
 
 li {
@@ -89,17 +90,10 @@ div {
 
 .data {
     display: flex;
-    column-gap: 10em;
     flex-direction: row-reverse;
 }
 
 /* images */
-.image-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px;
-}
 
 .gallery {
     padding-left: 20rem;
@@ -116,8 +110,13 @@ figure {
     width: 130px;
     height: 130px;
     border-radius: 25px;
-    border: none;
-    overflow-y: hidden;
+    overflow: hidden;
+}
+
+figcaption {
+    padding: 20px;
+    text-align: center;
+    display: block;
 }
 
 img {
@@ -138,30 +137,19 @@ img {
 }
 
 .image-placeholder {
-    /* align-self:center; */
     color: #1F2937;
     justify-content: center;
 }
 
-/* list style removal */
-.image-gallery li {
-    list-style: none;
-}
-
 /* quote */
-figure.quote {
+.quote {
     background-color: #E5E7EB;
     width: 100%;
     height: 100%;
     font-weight: 300;
     font-family: "RobotoLightItalic", sans-serif;
     font-size: 2.25rem;
-}
-
-figcaption {
-    padding: 5px;
-    text-align: center;
-
+    border: none;
 }
 
 .quote-container {
@@ -179,7 +167,7 @@ figcaption {
     color: #E5E7EB;
     text-align: center;
     padding-top: 60px;
-    padding-bottom: 60px;/
+    padding-bottom: 60px;
 }
 
 .action p {
@@ -190,10 +178,6 @@ figcaption {
     padding: 25px;
     width: 600px;
     margin: auto;
-}
-
-.head3 {
-    font-family: "RobotoBold", sans-serif;
 }
 
 /* sign up buttons */
